@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ajouter etudiant</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    @vite(['resources\css\app.css','resources\js\app.js'])
 </head>
 <body class="bg-light">
 
 <div class="container mt-5">
     <div class="card shadow">
-        <div class="card-header bg-primary text-white">
+        <div class="bg-primary text-white">
             <h4 class="mb-0">Ajouter un etudiant</h4>
         </div>
 
